@@ -69,7 +69,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("### Pâte finale")
     st.write(f"- 🧺 Farine : **{flour_choice} g**")
-    st.write(f"- 💧 Eau totale : **{water_total} g**")
+    st.write(f"- 💧 Eau totale FROIDE : **{water_total} g**")
     st.write(f"  - dont eau de départ : **{water_initial} g**")
     st.write(f"  - eau en bassinage : **{water_bassinage} g**")
     st.write(f"- 🧪 Levain prêt à l'emploi : **{levain_total} g**")
