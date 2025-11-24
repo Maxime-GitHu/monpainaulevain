@@ -2,13 +2,13 @@ import streamlit as st
 
 st.set_page_config(page_title="Assistant pain levain", layout="centered")
 
-st.title("🍞 Assistant pain au levain")
+st.title("🍞 Pain levain pousse lente")
 
 st.markdown(
     """
 Recette de base (pour 1000 g de farine) :
 
-- **Farine** : 1000 g  
+- **Farine mix T65 et T80** : 1000 g  
 - **Eau totale** : 800 g  
 - **Levain** : 320 g  
 - **Sel** : 22 g  
@@ -72,7 +72,7 @@ with col1:
     st.write(f"- 💧 Eau totale FROIDE : **{water_total} g**")
     st.write(f"  - dont eau de départ : **{water_initial} g**")
     st.write(f"  - eau en bassinage : **{water_bassinage} g**")
-    st.write(f"- 🧪 Levain prêt à l'emploi : **{levain_total} g**")
+    st.write(f"-  Levain prêt à l'emploi : **{levain_total} g**")
     st.write(f"- 🧂 Sel : **{salt} g**")
 
 with col2:
@@ -107,9 +107,9 @@ Tu dois obtenir environ **{levain_total} g** de levain prêt à l'emploi.
 
 ### 2. Mélange et pétrissage
 
-1. Dans un grand bol, **mélanger le levain** (**{levain_total} g**) avec **{water_initial} g** d'eau.
-2. Ajouter les **{flour_choice} g** de farine et pétrir jusqu'à obtenir une pâte homogène.
-3. Ajouter le sel (**{salt} g**) et le **reste de l'eau** (**{water_bassinage} g**) en bassinage, petit à petit, jusqu'à absorption complète.
+1. Dans le Famag, **mélanger le levain** (**{levain_total} g**) avec **{water_initial} g** d'eau.
+2. Ajouter les **{flour_choice} g** de farine et pétrir jusqu'à obtenir une pâte homogène. Au début vitesse 1. Après 3-4 maximum.
+3. Ajouter le sel (**{salt} g**) et le **reste de l'eau** (**{water_bassinage} g**) en bassinage, petit à petit, jusqu'à absorption complète si possible, suivant farine limiter le bassinage.
 
 ---
 
@@ -123,7 +123,7 @@ Tu dois obtenir environ **{levain_total} g** de levain prêt à l'emploi.
 
 ### 4. Façonnage et apprêt
 
-1. Sortir du frigo, **façonner directement** (miche, bâtard, etc.).
+1. Sortir du frigo, **façonner directement**.
 2. Laisser l'apprêt **2–3 h à 27°C**.
 
 ---
@@ -135,7 +135,7 @@ Tu dois obtenir environ **{levain_total} g** de levain prêt à l'emploi.
 3. **Cuisson :**
    - **30 min** avec couvercle à **250°C**.
    - Puis **30 min** sans couvercle à **220°C**.
-4. Optionnel : laisser sécher quelques minutes four entrouvert si tu veux une croûte plus sèche.
+4. Optionnel : laisser sécher en dehors de la cocotte, sur la pierre pour la seconde partie de cuisson.
 
 ---
 
